@@ -1,0 +1,109 @@
+The analysis creates a data set including the mean of each selected observation by subject and activity.
+The selected observations are the mean and standard deviation of each feature.
+
+1. Subject: numeric
+An identifier of the subject who carried out the experiment.
+
+2. Activity: type of activity performed, with the following values:
+      WALKING
+      WALKING_UPSTAIRS
+      WALKING_DOWNSTAIRS
+      SITTING
+      STANDING
+      LAYING
+      
+3. Rest of columns: experiment data means, where:
+
+time: time in seconds (for all time based data)
+freq/Freq: frequency in Hz (for all frequency based data)
+
+mean: mean
+std: standard deviation
+Acc: accelerometer
+Gyro: gyroscope
+Jerk: jerk signals
+Mag: magnitude
+
+The data set has the following columns:
+
+ [1] "subject"                        
+ [2] "activity"                       
+ [3] "timeBodyAccmeanX"               
+ [4] "timeBodyAccmeanY"               
+ [5] "timeBodyAccmeanZ"               
+ [6] "timeBodyAccstdX"                
+ [7] "timeBodyAccstdY"                
+ [8] "timeBodyAccstdZ"                
+ [9] "timeGravityAccmeanX"            
+[10] "timeGravityAccmeanY"            
+[11] "timeGravityAccmeanZ"            
+[12] "timeGravityAccstdX"             
+[13] "timeGravityAccstdY"             
+[14] "timeGravityAccstdZ"             
+[15] "timeBodyAccJerkmeanX"           
+[16] "timeBodyAccJerkmeanY"           
+[17] "timeBodyAccJerkmeanZ"           
+[18] "timeBodyAccJerkstdX"            
+[19] "timeBodyAccJerkstdY"            
+[20] "timeBodyAccJerkstdZ"            
+[21] "timeBodyGyromeanX"              
+[22] "timeBodyGyromeanY"              
+[23] "timeBodyGyromeanZ"              
+[24] "timeBodyGyrostdX"               
+[25] "timeBodyGyrostdY"               
+[26] "timeBodyGyrostdZ"               
+[27] "timeBodyGyroJerkmeanX"          
+[28] "timeBodyGyroJerkmeanY"          
+[29] "timeBodyGyroJerkmeanZ"          
+[30] "timeBodyGyroJerkstdX"           
+[31] "timeBodyGyroJerkstdY"           
+[32] "timeBodyGyroJerkstdZ"           
+[33] "timeBodyAccMagmean"             
+[34] "timeBodyAccMagstd"              
+[35] "timeGravityAccMagmean"          
+[36] "timeGravityAccMagstd"           
+[37] "timeBodyAccJerkMagmean"         
+[38] "timeBodyAccJerkMagstd"          
+[39] "timeBodyGyroMagmean"            
+[40] "timeBodyGyroMagstd"             
+[41] "timeBodyGyroJerkMagmean"        
+[42] "timeBodyGyroJerkMagstd"         
+[43] "freqBodyAccmeanX"               
+[44] "freqBodyAccmeanY"               
+[45] "freqBodyAccmeanZ"               
+[46] "freqBodyAccstdX"                
+[47] "freqBodyAccstdY"                
+[48] "freqBodyAccstdZ"                
+[49] "freqBodyAccmeanFreqX"           
+[50] "freqBodyAccmeanFreqY"           
+[51] "freqBodyAccmeanFreqZ"           
+[52] "freqBodyAccJerkmeanX"           
+[53] "freqBodyAccJerkmeanY"           
+[54] "freqBodyAccJerkmeanZ"           
+[55] "freqBodyAccJerkstdX"            
+[56] "freqBodyAccJerkstdY"            
+[57] "freqBodyAccJerkstdZ"            
+[58] "freqBodyAccJerkmeanFreqX"       
+[59] "freqBodyAccJerkmeanFreqY"       
+[60] "freqBodyAccJerkmeanFreqZ"       
+[61] "freqBodyGyromeanX"              
+[62] "freqBodyGyromeanY"              
+[63] "freqBodyGyromeanZ"              
+[64] "freqBodyGyrostdX"               
+[65] "freqBodyGyrostdY"               
+[66] "freqBodyGyrostdZ"               
+[67] "freqBodyGyromeanFreqX"          
+[68] "freqBodyGyromeanFreqY"          
+[69] "freqBodyGyromeanFreqZ"          
+[70] "freqBodyAccMagmean"             
+[71] "freqBodyAccMagstd"              
+[72] "freqBodyAccMagmeanFreq"         
+[73] "freqBodyBodyAccJerkMagmean"     
+[74] "freqBodyBodyAccJerkMagstd"      
+[75] "freqBodyBodyAccJerkMagmeanFreq" 
+[76] "freqBodyBodyGyroMagmean"        
+[77] "freqBodyBodyGyroMagstd"         
+[78] "freqBodyBodyGyroMagmeanFreq"    
+[79] "freqBodyBodyGyroJerkMagmean"    
+[80] "freqBodyBodyGyroJerkMagstd"     
+[81] "freqBodyBodyGyroJerkMagmeanFreq"
